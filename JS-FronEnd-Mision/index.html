@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./pokedex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="pokedex pokedex-tapa">
+        <div class="pokedex_info pokedex-tipo_container">
+            <div id="pokeType" name="pokeType"></div>
+            <div class="row pokeStats" id="pokeStats"></div>
+            <div class="row pokeStatsName" id="pokeStatsName"></div>
+        </div>
+        <div class="pokedex_info pokedex-fisico_container pokeHeight d-inline">
+            <label id="pokeHeight" name="pokeHeight"></label>
+        </div>
+        <div class="pokedex_info pokedex-fisico_container pokeWeight d-inline">
+            <label id="pokeWeight" name="pokeWeight"></label>
+        </div>
+    </div>
+     <div class="pokedex pokedex-cuerpo">
+        <div class="pokedex-imagen_container">
+            <img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+        </div>
+        <div class="pokedex-pokeName_container">
+            <input type="text" value="pikachu" id="pokeName" name="pokeName">
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>

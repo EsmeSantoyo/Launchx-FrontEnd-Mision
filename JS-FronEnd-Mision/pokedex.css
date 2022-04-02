@@ -1,0 +1,82 @@
+.pokedex {
+    background-color: crimson;
+    position: fixed;
+}
+
+.pokedex-cuerpo {
+    height: 100%;
+    left: 15%;
+    top: 0;
+    width: 40%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+
+}
+
+.pokedex-tapa {
+    height: 95%;
+    left: 55%;
+    top: 5%;
+    width: 40%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.pokedex-imagen_container {
+    background-color: aquamarine;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 200px;
+}
+
+.pokedex-fisico_container {
+    height: 10%;
+    width: 30%;
+    margin: 15%;
+    position: absolute;
+}
+
+.pokedex-tipo_container {
+    height: 40%;
+    width: 80%;
+    margin: 10%;
+}
+
+.pokedex_info { 
+    background-color: darkslategray;
+    border-radius: 5%;
+    color: goldenrod;
+    padding: 3%;
+}
+
+.pokeStatsDiv, .pokeStatsNameDiv{
+    text-align: center;
+}
+
+.pokeStats, .pokeStatsName {
+    width: 100%;
+}
+
+.pokeHeight {
+    margin-left: 10%;
+    left: 0;
+}
+
+.pokeWeight {
+    margin-right: 10%;
+    right: 0;   
+}
+
+#pokeName {
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    color: goldenrod;
+    background-color: darkslategray;
+}
