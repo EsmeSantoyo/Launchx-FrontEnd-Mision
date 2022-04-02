@@ -1,0 +1,211 @@
+header .nav {
+    background-color: #ffffff;
+    height: 130px;
+    opacity: 0.9;
+    padding: 0 100px;
+}
+
+.triangulo {
+    height: 0;
+    width: 0; 
+    position: absolute;
+    z-index: -2;
+}
+  
+.tringulo-invertido {
+    border-left: 210px solid transparent;
+    border-right: 210px solid transparent;
+    border-top: 215px solid #f4f6fb;
+    left: -100px;
+    top: 0;
+}
+
+.triangulo-derecha {
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    border-right: 200px solid #f4f6fb;
+    left: 540px;
+    top: 285px;
+}
+
+.seccion_3-triangulo-derecha {
+    border-top: 110px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-right: 95px solid #f4f6fb;
+    right: 0;
+    top: 1050px;
+}
+
+.seccion_4-triangulo-derecha {
+    border-top: 110px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-left: 95px solid #f4f6fb;
+    left: 0;
+    top: 1350px;
+}
+
+.seccion_5-triangulo-derecha {
+    border-top: 110px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-right: 95px solid #f4f6fb;
+    right: 0;
+    top: 1560px;
+}
+
+.footer-triangulo-derecha {
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 95px solid #e2e9f9;
+    right: 75px;
+    top: 2123px;
+    z-index: 0;
+}
+
+.logo {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    color: gray;
+}
+
+.row .seccion_1 {
+    margin: 0 10px 0 -25px;
+    padding: 90px 140px 90px 147px;   
+}
+
+.seccion_1-content {
+    height: 800px;   
+}
+
+.seccion_1-title {
+    color: #1f3e72;
+    font-size: 58px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.seccion_1-p_padding { 
+    color: #6d7b93;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0px 30px 35px 0;
+
+}
+
+.seccion_1-label_margin {
+    margin: 0 49px;
+}
+
+.seccion_1-schedule_margin {
+    margin: 165px -15px 0 -15px;
+}
+
+.seccion_1-schedule_card {
+    background-color: #ffffff;
+    height: 110px;
+    margin: 35px 0 0 0;
+    position: absolute;
+    opacity: 0.9;
+    width: 900px;
+}
+
+.seccion_1-schedule_card_info {
+    margin: 0 0 0 49px;
+    width: 70%;
+}
+
+.seccion_1-schedule_card_info-shadow {
+    box-shadow: 15px 15px 40px powderblue;
+    position: absolute;
+    width: 535px;
+    height: 110px;
+    left: 180px;
+    top: 653px;
+    z-index: 1;
+    opacity: .5;
+}
+
+.seccion_1-schedule_card_btn {
+    width: 15%;
+}
+
+.seccion_1-schedule_card_btn input{
+    padding: 10px 45px;
+}
+
+.seccion_1-img {
+    background-color: #0c94e5;
+    height: 925px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+}
+
+.seccion_2 {
+    margin: 0 10px 0 -25px;
+    opacity: 0.3;
+    padding: 75px 140px 90px 147px;
+}
+
+.seccion_2-img {
+    height: 80px;
+    margin: 0 0 0 25px;
+    width: 400px;
+}
+
+.seccion_2-img-center {
+    height: 80px;
+    margin: 0 0 0 -76px;
+    width: 400px;
+}
+
+.seccion_2-img-left {
+    height: 80px;
+    margin: 0 0 0 -90px;
+    width: 400px;
+}
+
+.seccion_3 {
+    margin: 0 10px 0 -25px;
+    padding: 60px 140px 90px 147px;   
+}
+
+.seccion_3-title {
+    color: #1f3e72;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.seccion_4-img {
+    background-color: #0c94e5;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 1686px;
+    width: 50%;
+    z-index: -1;
+}
+
+.seccion_5-img {
+    background-color: #0c94e5;
+    height: 300px;
+    left: 50%;
+    position: absolute;
+    top: 1848px;
+    width: 50%;
+    z-index: -1;
+}
+
+.footer {
+    background-color: #f1f5ff;
+}
+
+.footer-goal {
+    width: 160px;
+}
