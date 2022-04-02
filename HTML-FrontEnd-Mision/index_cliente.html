@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Virtual-K</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="CakeX.png"/>
+            <h1>Bienvenido a Virtual-K</h1>
+        </header>
+        <form action="/accion.js" id="form1" class="form" method="post">
+            <h2>Par favor danos tus datos pàra crear tu orden...</h2>
+            <label for="nombre">Nombre</label>    
+            <input type="text" id="nombre" name="nombre"/><br>
+            <label for="telefono">Telèfono</label>    
+            <input type="tel" id="telefono" name="telefono"/><br>
+            <label for="correo">Correo Electronico</label>    
+            <input type="email" id="correo" name="correo"/><br><br>
+            <h2>Vamos a crear tu pastel...</h2>
+            <label for="pan">Sabor de pan: </label>    
+            <select id="pan" name="pan">
+                <option id="chocolate_pan" name="chocolate_pan" value="chocolate">Chocolate</option>
+                <option id="vainilla_pan" name="vainilla_pan" value="vainilla">Vainilla</option>
+                <option id="velvet_pan" name="velvet_pan" value="velvet">Red velvet</option>
+            </select>
+            <br>
+            <br>
+            <label for="relleno">Sabor de relleno: </label>     
+            <select id="relleno" name="relleno">
+                <option id="chocolate_relleno" name="chocolate_relleno" value="chocolate">Chocolate</option>
+                <option id="vainilla_relleno" name="vainilla_relleno" value="vainilla">Vainilla</option>
+                <option id="fresa_relleno" name="fresa_relleno" value="fresa">Fresa</option>
+                <option id="durazno_relleno" name="durazno_relleno" value="durazno">Durazno</option>
+            </select>
+            <br>
+            <br>
+            <label for="tipo_cobertura">Tipo de cobertura: </label><br>
+            <input type="checkbox" id="merengue_suizo" name="tipo_cobertura" value="merengue suizo">
+            <label for="merengue_suizo">merengue suizo</label><br>
+            <input type="checkbox" id="merengue_italiano" name="tipo_cobertura" value="merengue italiano">
+            <label for="merengue_italiano">merengue italiano</label><br>
+            <input type="checkbox" id="buttercream" name="tipo_cobertura" value="buttercream">
+            <label for="buttercream">buttercream</label><br>
+            <input type="checkbox" id="custard_americano" name="tipo_cobertura" value="custard americano">
+            <label for="custard_americano">custard americano</label><br>
+            <input type="checkbox" id="custard_británico" name="tipo_cobertura" value="custard británico">
+            <label for="custard_británico">custard británico</label><br>
+            <input type="checkbox" id="fondant" name="tipo_cobertura" value="Fondant">
+            <label for="fondant">Fondant</label>
+            <br>
+            <br>
+            <label for="cobertura">Sabor de cobertura</label>    
+            <select id="cobertura" name="cobertura">
+                <option id="chocolate_cobertura" name="chocolate_cobertura" value="chocolate">Chocolate</option>
+                <option id="vainilla_cobertura" name="vainilla_cobertura" value="vainilla">Vainilla</option>
+                <option id="fresa_cobertura" name="fresa_cobertura" value="fresa">Fresa</option>
+                <option id="fresas_con_crema_cobertura" name="fresas_con_crema_cobertura" value="fresasconcrema">Fresas con crema</option>
+            </select><br>
+            <label for="decoracion">Decoraciones</label><br>
+            <input type="checkbox" id="flores" name="flores" value="flores">
+            <label for="flores">flores comestibles</label><br>
+            <input type="checkbox" id="chocolate_derretido" name="chocolate_derretido" value="chocolate_derretido">
+            <label for="chocolate_derretido">chocolate derretido</label><br>
+            <label for="flores">flores comestibles</label><br>
+            <input type="checkbox" id="chocolate_trozos" name="chocolate_trozos" value="chocolate_trozos">
+            <label for="chocolate_trozos">chocolate en trozos</label><br>
+            <input type="checkbox" id="hoja_oro" name="hoja_oro" value="hoja_oro">
+            <label for="hoja_oro">hojas de oro</label><br>
+            <br>
+            <input type="reset"><br>
+            <input type="button" id="boton1" name="boton1" value="Guardar" onclick="alert('Su pedido se guardo, por favor espere a que este listo');"><br><br>
+        </form>
+        <br>
+        <footer class="footer">
+            <p>Virtual-K 2022</p>
+        </footer>
+    </body>
+</html>
